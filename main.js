@@ -60,6 +60,17 @@ for (let index = 0; index < userNumber; index++) {
 // E07S01
 //Stampa le potenze di 2 fino a 1000.
 
-for (let i = 0; i < 11 ; i++) {
+/*for (let i = 0; i < 11 ; i++) {
   console.log(`${Math.pow(2, i)}`);
+}*/
+
+
+//E07S01
+//Chiedi un numero di 4 cifre all’utente e calcola la somma di tutte le cifre che compongono il numero.
+var sum = 0;
+var userNumber = prompt(`Inserisci un numero di 4 cifre`);
+for (let i = 0; i < userNumber.length; i++) {
+  let n = Number(userNumber[i])
+  var sum = sum + n;
+  console.log(sum);
 }
