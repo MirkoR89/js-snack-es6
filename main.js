@@ -33,9 +33,18 @@ for (let i = 0; i < 5; i++) {
 // E04S01
 //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 
-const userList = [`Mario Rossi`, `Luca Bianchi`, `Andrea Verdi`];
+/*const userList = [`Mario Rossi`, `Luca Bianchi`, `Andrea Verdi`];
 
 for (let i = 0; i < userList.length; i++) {
   let userName = prompt(`Inserisci il tuo nome e cognome`);
   console.log(`${userName} ${userList.includes(userName) ? "può partecipare alla festa" : "è uno sfigato! Torna a casa" }`);
-}
+}*/
+
+// E05S01
+//Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array.
+
+  for (var i = 0; i < 6; i++) {
+    const listNumber = [];
+    let userNumber = Number(prompt(`Inserisci un numero`));
+    `${userNumber % 2 != 0 ? listNumber.push(userNumber) && console.log(listNumber) : "Il numero è pari"}`;
+  }
