@@ -52,7 +52,14 @@ for (let i = 0; i < userList.length; i++) {
 // E06S01
 //Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
 
-let userNumber = Number(prompt(`Inserisci un numero`));
+/*let userNumber = Number(prompt(`Inserisci un numero`));
 for (let index = 0; index < userNumber; index++) {
   console.log(`${Math.pow(index, 3)}`);
+}*/
+
+// E07S01
+//Stampa le potenze di 2 fino a 1000.
+
+for (let i = 0; i < 11 ; i++) {
+  console.log(`${Math.pow(2, i)}`);
 }
