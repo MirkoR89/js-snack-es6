@@ -43,8 +43,16 @@ for (let i = 0; i < userList.length; i++) {
 // E05S01
 //Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array.
 
-  for (var i = 0; i < 6; i++) {
+  /*for (var i = 0; i < 6; i++) {
     const listNumber = [];
     let userNumber = Number(prompt(`Inserisci un numero`));
     `${userNumber % 2 != 0 ? listNumber.push(userNumber) && console.log(listNumber) : "Il numero è pari"}`;
-  }
+  }*/
+
+// E06S01
+//Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
+
+let userNumber = Number(prompt(`Inserisci un numero`));
+for (let index = 0; index < userNumber; index++) {
+  console.log(`${Math.pow(index, 3)}`);
+}
